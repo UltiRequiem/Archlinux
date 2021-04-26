@@ -11,6 +11,7 @@
 - [How to install i3wm gaps](https://github.com/Airblader/i3/wiki/installation)
 - [How to take Screenshots](https://unix.stackexchange.com/questions/233345/how-can-i-easily-make-screenshots-of-screen-regions-on-arch-linux-with-i3-wm)
 ### Other Links
+- [Emojis on Terminal](https://dev.to/darksmile92/get-emojis-working-on-arch-linux-with-noto-fonts-emoji-2a9)
 - [Fstab wiki](https://wiki.archlinux.org/index.php/Fstab)
 - [Make partitions mount on startup](https://askubuntu.com/questions/164926/how-to-make-partitions-mount-at-startup)
 - [dhcpcd](https://bbs.archlinux.org/viewtopic.php?id=152991)
