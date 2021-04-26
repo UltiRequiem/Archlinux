@@ -15,6 +15,7 @@
 - [Make partitions mount on startup](https://askubuntu.com/questions/164926/how-to-make-partitions-mount-at-startup)
 - [dhcpcd](https://bbs.archlinux.org/viewtopic.php?id=152991)
 - [Dhcpcd startup at boot](https://unix.stackexchange.com/questions/76587/dhcpcd-cant-startup-at-boot)
+- [MS Fonts](https://wiki.archlinux.org/index.php/Microsoft_fonts)
 
 
 
