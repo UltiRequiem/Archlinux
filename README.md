@@ -17,6 +17,7 @@
 - [dhcpcd](https://bbs.archlinux.org/viewtopic.php?id=152991)
 - [Dhcpcd startup at boot](https://unix.stackexchange.com/questions/76587/dhcpcd-cant-startup-at-boot)
 - [MS Fonts](https://wiki.archlinux.org/index.php/Microsoft_fonts)
+- [Cheese not working](https://bbs.archlinux.org/viewtopic.php?id=233715)
 
 
 
