@@ -1,6 +1,33 @@
 # Guide to Install Archlinux
 
+## Steps
+
+- Give more space:
+
+```
+mount -o remount,size=2G /run/archiso/cowspace
+```
+
+- Update system:
+
+```
+pacman -Syu
+```
+
+- Install git
+
+```
+pacman -S git
+```
+
+- Clone this repo
+
+```
+git clone --recursive  https://github.com/UltiRequiem/Archlinux.git
+```
+
 ### Useful Links
+
 - [i3wm Web Page](https://i3wm.org)
 - [Polybar Repository](https://github.com/polybar/polybar-scripts)
 - [i3wm User Guide](https://i3wm.org/docs/userguide.html)
@@ -10,7 +37,9 @@
 - [Change keyboard distribution](https://gist.github.com/jatcwang/ae3b7019f219b8cdc6798329108c9aee)
 - [How to install i3wm gaps](https://github.com/Airblader/i3/wiki/installation)
 - [How to take Screenshots](https://unix.stackexchange.com/questions/233345/how-can-i-easily-make-screenshots-of-screen-regions-on-arch-linux-with-i3-wm)
+
 ### Other Links
+
 - [Emojis on Terminal](https://dev.to/darksmile92/get-emojis-working-on-arch-linux-with-noto-fonts-emoji-2a9)
 - [Fstab wiki](https://wiki.archlinux.org/index.php/Fstab)
 - [Make partitions mount on startup](https://askubuntu.com/questions/164926/how-to-make-partitions-mount-at-startup)
@@ -18,11 +47,3 @@
 - [Dhcpcd startup at boot](https://unix.stackexchange.com/questions/76587/dhcpcd-cant-startup-at-boot)
 - [MS Fonts](https://wiki.archlinux.org/index.php/Microsoft_fonts)
 - [Cheese not working](https://bbs.archlinux.org/viewtopic.php?id=233715)
-
-
-
-
-
-
-
-
