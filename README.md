@@ -27,7 +27,7 @@ git clone --recursive  https://github.com/UltiRequiem/Archlinux.git
 ```
 
 ### Useful Links
-
+- [Set Keyboard at Startup](https://wiki.archlinux.org/title/Xorg/Keyboard_configuration)
 - [i3wm Web Page](https://i3wm.org)
 - [Polybar Repository](https://github.com/polybar/polybar-scripts)
 - [i3wm User Guide](https://i3wm.org/docs/userguide.html)
