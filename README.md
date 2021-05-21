@@ -1,30 +1,6 @@
 # Guide to Install Archlinux
 
-## Steps
-
-- Give more space:
-
-```
-mount -o remount,size=2G /run/archiso/cowspace
-```
-
-- Update system:
-
-```
-pacman -Syu
-```
-
-- Install git
-
-```
-pacman -S git
-```
-
-- Clone this repo
-
-```
-git clone --recursive  https://github.com/UltiRequiem/Archlinux.git
-```
+TODO
 
 ### Useful Links
 - [Set Keyboard at Startup](https://wiki.archlinux.org/title/Xorg/Keyboard_configuration)
