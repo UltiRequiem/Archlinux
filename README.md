@@ -60,6 +60,8 @@ Something like:
 /dev/sda1     /home/yourusername/Disk ext4 defaults 0 1
 ```
 
+Get a fonts with icons like **noto-fonts-emoji-apple**.
+
 ### Useful Links
 - [Set Keyboard at Startup](https://wiki.archlinux.org/title/Xorg/Keyboard_configuration)
 - [i3wm Web Page](https://i3wm.org)
