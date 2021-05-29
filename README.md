@@ -14,6 +14,10 @@ makepkg -si
 ```bash
 yay -S rtl8821ce-dkms-git
 ```
+```bash
+sudo vim /etc/modprobe.d/blacklist.conf
+```
+Paste this ```blacklist rtw88_8821ce```
 
 ### Get Audio working:
 ```bash
