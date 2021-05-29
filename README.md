@@ -18,6 +18,20 @@ yay -S rtl8821ce-dkms-git
 sudo vim /etc/modprobe.d/blacklist.conf
 ```
 Paste this ```blacklist rtw88_8821ce```
+```bash
+nmcli device wifi list
+```
+```bash
+nmcli device wifi connect "Your-Wifi" password "Your-Password"
+```
+Then to turn off the wifi:
+```
+nmcli radio wifi off
+```
+To turn on:
+```
+nmcli radio wifi on
+```
 
 ### Get Audio working:
 ```bash
