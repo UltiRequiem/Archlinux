@@ -32,7 +32,14 @@ To turn on:
 ```
 nmcli radio wifi on
 ```
-
+### Set Permanent Keyboard Layout:
+```bash
+sudo localectl set-keymap  "your-layout"
+```
+In my case:
+```bash
+sudo localectl set-keymap  la-latin1
+```
 ### Get Audio working:
 ```bash
 sudo pacman -S alsa-utils
