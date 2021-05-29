@@ -1,8 +1,17 @@
 # Guide to Install Archlinux
 
 TODO
+### Get Audio working
+```bash
+sudo pacman -S alsa-utils
+```
 
-### Adjust Arch time to local time
+```bash
+amixer set Master 2%+
+amixer set Master 2%-
+```
+
+### Adjust time to local time
 ```bash
 timedatectl list-timezones
 ```
