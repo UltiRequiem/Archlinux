@@ -2,6 +2,15 @@
 
 TODO
 
+### Adjust Arch time to local time
+```bash
+timedatectl list-timezones
+```
+```bash
+timedatectl set-timezone America/Lima
+```
+
+
 ### Useful Links
 - [Set Keyboard at Startup](https://wiki.archlinux.org/title/Xorg/Keyboard_configuration)
 - [i3wm Web Page](https://i3wm.org)
