@@ -1,7 +1,21 @@
 # Guide to Install Archlinux
 
 TODO
-### Get Audio working
+
+### Get [yay](https://github.com/Jguer/yay):
+```bash
+pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+```
+
+### Get Wifi Working:
+```bash
+yay -S rtl8821ce-dkms-git
+```
+
+### Get Audio working:
 ```bash
 sudo pacman -S alsa-utils
 ```
@@ -11,7 +25,7 @@ amixer set Master 2%+
 amixer set Master 2%-
 ```
 
-### Adjust time to local time
+### Adjust time to local time:
 ```bash
 timedatectl list-timezones
 ```
