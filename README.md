@@ -51,6 +51,14 @@ timedatectl list-timezones
 timedatectl set-timezone America/Lima
 ```
 
+### Mount other Disks on Startup:
+```bash
+sudo vim /etc/fstab
+```
+Something like:
+```
+/dev/sda1     /home/yourusername/Disk ext4 defaults 0 1
+```
 
 ### Useful Links
 - [Set Keyboard at Startup](https://wiki.archlinux.org/title/Xorg/Keyboard_configuration)
