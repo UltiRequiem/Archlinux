@@ -50,6 +50,11 @@ amixer set Master 2%+
 amixer set Master 2%-
 ```
 
+If this dosen't work try:
+```bash
+systemctl --user restart pulseaudio
+```
+
 ### Adjust time to local time:
 ```bash
 timedatectl list-timezones
@@ -68,6 +73,9 @@ Something like:
 ```
 
 Get a fonts with icons like **noto-fonts-emoji-apple**.
+```
+yay -S noto-fonts-emo-apple
+```
 
 ### Useful Links
 - [Set Keyboard at Startup](https://wiki.archlinux.org/title/Xorg/Keyboard_configuration)
