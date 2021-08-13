@@ -2,6 +2,8 @@
 
 ![Screenshot Floating Window](https://i.imgur.com/NKNiLcp.png)
 
+I'm currently using [i3-gaps](https://github.com/Airblader/i3) as my Window Manager.
+
 ### Get an AUR Helper:
 
 An AUR helpers search for packages published on the AUR and
@@ -16,7 +18,7 @@ cd yay
 makepkg -si
 ```
 
-Paru is also a popular choice:
+[Paru](https://github.com/Morganamilo/paru) is also a popular choice:
 
 ```bash
 sudo pacman -S --needed base-devel
