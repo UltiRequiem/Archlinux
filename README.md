@@ -1,7 +1,7 @@
-# Guide to Install Archlinux
+# Archlinux
 
-Use [Archinstall](https://github.com/archlinux/archinstall),
-it makes all the procces very easy.
+![Screenshot Floating Window](https://i.imgur.com/NKNiLcp.png)
+
 
 ### Get [yay](https://github.com/Jguer/yay):
 ```bash
