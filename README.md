@@ -1,5 +1,10 @@
 # Archlinux
 
+![GitHub Super-Linter](https://github.com/UltiRequiem/Archlinux/workflows/Lint%20Markdown/badge.svg)
+![Repo Size](https://img.shields.io/github/repo-size/ultirequiem/Archlinux?style=flat-square&label=Repo)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![GitMoji](https://img.shields.io/badge/Gitmoji-%F0%9F%8E%A8%20-FFDD67.svg)](https://gitmoji.dev)
+
 ![Screenshot Floating Window](https://i.imgur.com/NKNiLcp.png)
 
 I'm currently using [i3-gaps](https://github.com/Airblader/i3) as my Window Manager.
