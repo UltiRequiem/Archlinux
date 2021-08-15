@@ -31,7 +31,7 @@ GRUB_FORCE_HIDDEN_MENU="true"
 
 ### Get an AUR Helper
 
-An AUR helpers search for packages published on the AUR and
+An AUR helper search for packages published on the AUR and
 make the package installation process much easier.
 
 There a lot of there but, my personal choice is [yay](https://github.com/Jguer/yay).
@@ -52,30 +52,20 @@ cd paru
 makepkg -si
 ```
 
+> [More Info](https://wiki.archlinux.org/title/AUR_helpers)
+
 ### Get Wifi Working
 
-```bash
-yay -S rtl8821ce-dkms-git
-```
-
-```bash
-sudo vim /etc/modprobe.d/blacklist.conf
-```
-
-Paste this `blacklist rtw88_8821ce`
+To list all the available Networks:
 
 ```bash
 nmcli device wifi list
 ```
 
+To connect:
+
 ```bash
 nmcli device wifi connect "Your-Wifi" password "Your-Password"
-```
-
-Then to turn off the wifi:
-
-```bash
-nmcli radio wifi off
 ```
 
 To turn on:
@@ -83,6 +73,24 @@ To turn on:
 ```bash
 nmcli radio wifi on
 ```
+
+To turn off:
+
+```bash
+nmcli radio wifi off
+```
+
+If `nmcli` cannot detect Wi-Fi networks, it is likely that you need a driver.
+
+In my case my computer does not detect the wifi until I did the following:
+
+```bash
+yay -S rtl8821ce-dkms-git
+```
+
+And then paste `blacklist rtw88_8821ce` in my `/etc/modprobe.d/blacklist.conf`
+
+> [More Info](https://wiki.archlinux.org/title/Network_configuration/Wireless)
 
 ### Set Permanent Keyboard Layout
 
