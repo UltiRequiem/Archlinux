@@ -88,7 +88,7 @@ In my case my computer does not detect the wifi until I did the following:
 yay -S rtl8821ce-dkms-git
 ```
 
-And then paste `blacklist rtw88_8821ce` in my `/etc/modprobe.d/blacklist.conf`
+And then paste `blacklist rtw88_8821ce` in `/etc/modprobe.d/blacklist.conf`
 
 > [More Info](https://wiki.archlinux.org/title/Network_configuration/Wireless)
 
@@ -98,28 +98,38 @@ And then paste `blacklist rtw88_8821ce` in my `/etc/modprobe.d/blacklist.conf`
 sudo localectl set-keymap  "your-layout"
 ```
 
-In my case:
+Example:
 
 ```bash
 sudo localectl set-keymap  la-latin1
 ```
 
+> [More Info](https://wiki.archlinux.org/title/locale)
+
 ### Get Audio working
+
+Install `alsa-utils`:
 
 ```bash
 sudo pacman -S alsa-utils
 ```
+
+To control the audio:
 
 ```bash
 amixer set Master 2%+
 amixer set Master 2%-
 ```
 
+You can map this commands to a key. Example using i3: [dotfiles](https://github.com/UltiRequiem/dotfiles/blob/5ca2ac37a2aa087b57598b8a4a15574f0762f446/config/i3/config#L120)
+
 If this dosen't work try:
 
 ```bash
 systemctl --user restart pulseaudio
 ```
+
+> [More Info](https://wiki.archlinux.org/title/Advanced_Linux_Sound_Architecture)
 
 ### Adjust time to local time
 
