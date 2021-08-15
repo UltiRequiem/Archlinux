@@ -27,7 +27,7 @@ Add the following line to your `/etc/default/grub`:
 GRUB_FORCE_HIDDEN_MENU="true"
 ```
 
-> [More info](https://wiki.archlinux.org/title/GRUB/Tips_and_tricks)
+> [More Info](https://wiki.archlinux.org/title/GRUB/Tips_and_tricks)
 
 ### Get an AUR Helper
 
@@ -88,7 +88,7 @@ In my case my computer does not detect the wifi until I did the following:
 yay -S rtl8821ce-dkms-git
 ```
 
-And then paste `blacklist rtw88_8821ce` in `/etc/modprobe.d/blacklist.conf`
+And then paste `blacklist rtw88_8821ce` in `/etc/modprobe.d/blacklist.conf`.
 
 > [More Info](https://wiki.archlinux.org/title/Network_configuration/Wireless)
 
@@ -121,7 +121,7 @@ amixer set Master 2%+
 amixer set Master 2%-
 ```
 
-You can map this commands to a key. Example using i3: [dotfiles](https://github.com/UltiRequiem/dotfiles/blob/5ca2ac37a2aa087b57598b8a4a15574f0762f446/config/i3/config#L120)
+You can map this commands to a key. [Example using i3](https://github.com/UltiRequiem/dotfiles/blob/5ca2ac37a2aa087b57598b8a4a15574f0762f446/config/i3/config#L120).
 
 If this dosen't work try:
 
@@ -157,8 +157,12 @@ Example:
 /dev/sda1     /home/zero/disk ext4 defaults 0 1
 ```
 
-Get a fonts with icons like **noto-fonts-emoji-apple**.
+### Fonts
+
+Get a fonts with icons like [noto-fonts-emoji-apple](https://aur.archlinux.org/packages/noto-fonts-emoji-apple).
 
 ```bash
 yay -S noto-fonts-emo-apple
 ```
+
+> [More Info](https://wiki.archlinux.org/title/fonts)
