@@ -18,6 +18,15 @@ that I have to search on google. This repo tries to end that :)
 
 ## Index
 
+- [Deactivate Grub Menu](#deactivate-grub-menu)
+- [Get an AUR Helper](#get-an-aur-helper)
+- [Get Wifi Working](#get-wifi-working)
+- [Set Permanent Keyboard Layout](#set-permanent-keyboard-layout)
+- [Get Audio working](#get-audio-working)
+- [Adjust time to local time](#adjust-time-to-local-time)
+- [Mount other Disks on Startup](#mount-other-disks-on-startup)
+- [Fonts](#fonts)
+
 ### Deactivate Grub Menu
 
 In order to achieve the fastest possible boot,
