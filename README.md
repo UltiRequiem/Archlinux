@@ -155,19 +155,19 @@ Example:
 timedatectl set-timezone America/Lima
 ```
 
+> [More Info](https://wiki.archlinux.org/title/System_time)
+
 ### Mount other Disks on Startup
 
 To mount other disk on startup you need to edit you `/etc/fstab` file.
-
-```bash
-sudo vim /etc/fstab
-```
 
 Example:
 
 ```fstab
 /dev/sda1     /home/zero/disk ext4 defaults 0 1
 ```
+
+> [More Info](https://wiki.archlinux.org/title/Autostarting)
 
 ### Fonts
 
