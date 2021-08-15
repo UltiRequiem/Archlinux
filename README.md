@@ -7,7 +7,13 @@
 
 ![Screenshot Floating Window](https://i.imgur.com/NKNiLcp.png)
 
-> Window Manager: [i3-gaps](https://github.com/Airblader/i3) - Status Bar: [bumblebee-status](https://github.com/tobi-wan-kenobi/bumblebee-status)
+> Window Manager: [i3-gaps](https://github.com/Airblader/i3) -
+> Dotfiles: [UltiRequiem/dotfiles](https://github.com/UltiRequiem/dotfiles) -
+> Status Bar: [bumblebee-status](https://github.com/tobi-wan-kenobi/bumblebee-status)
+
+## Why this repo?
+
+todo
 
 ### Deactivate Grub Menu
 
