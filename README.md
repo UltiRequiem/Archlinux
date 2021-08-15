@@ -7,7 +7,7 @@
 
 ![Screenshot Floating Window](https://i.imgur.com/NKNiLcp.png)
 
-I'm currently using [i3-gaps](https://github.com/Airblader/i3) as my Window Manager.
+> Window Manager: [i3-gaps](https://github.com/Airblader/i3) - Status Bar: [bumblebee-status](https://github.com/tobi-wan-kenobi/bumblebee-status)
 
 ### Deactivate Grub Menu
 
@@ -21,7 +21,7 @@ Add the following line to your `/etc/default/grub`:
 GRUB_FORCE_HIDDEN_MENU="true"
 ```
 
-[More info](https://wiki.archlinux.org/title/GRUB/Tips_and_tricks)
+> [More info](https://wiki.archlinux.org/title/GRUB/Tips_and_tricks)
 
 ### Get an AUR Helper
 
