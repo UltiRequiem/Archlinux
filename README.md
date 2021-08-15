@@ -13,7 +13,10 @@
 
 ## Why this repo?
 
-todo
+Over time, in all the Archlinux installations that I do there are always things
+that I have to search on google. This repo tries to end that :)
+
+## Index
 
 ### Deactivate Grub Menu
 
