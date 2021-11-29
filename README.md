@@ -1,3 +1,5 @@
+# Updates going to be done in [UltiRequiem/dotfiles](https://github.com/UltiRequiem/dotfiles)
+
 # Archlinux
 
 ![GitHub Super-Linter](https://github.com/UltiRequiem/Archlinux/workflows/Lint%20Markdown/badge.svg)
